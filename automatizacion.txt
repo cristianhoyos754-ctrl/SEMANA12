@@ -1,0 +1,8 @@
+Evento: Nuevo apoyo registrado a una causa en la plataforma.
+
+Mensaje: "Se ha registrado un nuevo apoyo para la causa. Consulta la 
+plataforma para ver el estado actualizado de la petición."
+
+Información que no debe enviarse: números de identificación, teléfonos, 
+correos electrónicos, direcciones, contraseñas o 
+cualquier dato personal sensible de los ciudadanos.

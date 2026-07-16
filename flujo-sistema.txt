@@ -1,0 +1,32 @@
+FLUJO DEL SISTEMA DE PETICIONES Y CAUSAS
+==========================================
+
+1. Un ciudadano ingresa a la plataforma y crea una causa o petición.
+   - El usuario se autentica en el sistema
+   - Accede al formulario de creación de causa
+   - Completa los datos requeridos (título, descripción, objetivo de apoyos, etc.)
+
+2. La información de la causa se registra automáticamente en la base de datos.
+   - Los datos se validan y se almacenan
+   - Se asigna un identificador único a la causa
+   - Se registra la fecha y hora de creación
+
+3. Otros ciudadanos visualizan la causa y deciden apoyarla.
+   - Los usuarios pueden ver el listado de causas activas
+   - Acceden a los detalles de cada causa
+   - Pueden ver el progreso de apoyos acumulados
+
+4. El sistema registra y contabiliza cada apoyo recibido.
+   - Cada ciudadano que apoya la causa genera un registro
+   - El contador de apoyos se actualiza en tiempo real
+   - Se registra la identidad del usuario y la fecha del apoyo
+
+5. Cuando se alcanza una cantidad determinada de apoyos, el sistema genera un documento PDF con la petición.
+   - Se define un umbral de apoyos necesarios
+   - Al alcanzar el umbral, se inicia la generación automática del PDF
+   - El documento contiene toda la información de la causa y lista de apoyadores
+
+6. El documento puede ser descargado o enviado a la entidad correspondiente para su revisión.
+   - El usuario puede descargar el PDF generado
+   - Se proporciona opción de envío directo a entidades públicas
+   - Se registra el envío y se mantiene un historial de gestiones
